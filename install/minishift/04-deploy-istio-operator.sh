@@ -1,10 +1,12 @@
 #!/bin/bash
-. ./0-environment.sh
+. ./00-environment.sh
+
+# Ref. https://maistra.io/docs/install/#_install_istio_into_existing_ocp_or_okd_environment
 
 minishift ssh < prep-elasticsearch.sh
 
 oc new-project istio-operator
-oc new-app -f https://raw.githubusercontent.com/Maistra/openshift-ansible/maistra-0.3/istio/istio_community_operator_template.yaml --param=OPENSHIFT_ISTIO_MASTER_PUBLIC_URL="https://$(minishift ip):8443"
+oc new-app -f https://raw.githubusercontent.com/Maistra/openshift-ansible/${MAISTRA_ISTIO_VERSION}/istio/istio_community_operator_template.yaml --param=OPENSHIFT_ISTIO_MASTER_PUBLIC_URL="https://$(minishift ip):8443"
 
 while oc get pods -n istio-operator | grep -v -E "(Running|Completed|STATUS)"; do sleep 5; done
 

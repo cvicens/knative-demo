@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "knative-project-4",
+  "private_key_id": "249c0bc46dbdd501325fd8e869e44681286e06ef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCgvq24f9uMcOL5\nb+OhKtltbgkZGRe4BGeIaKONHLZkNnqYoSZqD0ctknvFKGvadeOKTCnVdnDr9Rb8\nb15YHZ6bZc/ZVDcxf0KX0fUK+piH5EbqpplMj6XOr6ZnjAMzeWhzRpF01mlESm5e\nPtl3Gm/zLUAA+IH8N5u2xs3lIhtJmm/v9lzajWpttz9tBgflImQUOHnMrNp6P9ZN\n19GF4PHfcWkXza2iX1KGvsy46syAXpZ2ccuMRIamzap/zqqjZfEqG7Ps+Dnd8hN7\ndMPjZolgQyQyPf5gx8JPLh6OzdwXTj5W1vnXnZAwO57wolG4C6qXS/Pdgz4TcrEQ\naKY/Q5UNAgMBAAECggEAByWl6o8QHLI0kVPQKpgRuKEcw/IplmZnEQ8FU0P3Ixpe\nAJUiX12vCT/FrjTiI2w8R1JOxjLg30jo3PqkVqV4f3R7KvCo5JPsitIMbmYegTpH\n4e0xjJB9gOSum3+Dm+wLwMZe4h5Ev23SHZwh8KmrAm8HtRNXj4vhv0fJxfnqfdmk\nj6oVlRghxHYT8UTveUbDJ8xV1itPhVRQfuprFHU5xWDTRe0dLNC/Fl1ZQ9XmWA4R\nx1HNligS92t3O2/DgK34eFOr39+hKWUaAh0d1kUBKqLEeswxe08miGio6bfGQoSn\nkhfLX65psY0FIAHWfGhV2/MUxsl3IQmxebyb7uzN4QKBgQDSq92tgmm9aRvoGZhn\nC5t5jX5O4FvunO2Dz2WUAheeFqr/eaXfAXXNMkLf3ot3GqpR4JY9yqTIzLCl1izt\nGUqbcJX2Z7yYgVYh6S9KjNQIuOqMhfNYajmxSWZHe3zpikxIwO5sV1dZaQszlPoa\nrKTvIl6hWwzW3NqclWlj7DzjbQKBgQDDVMak2/uCYsc31/PVaXDbJX7Njjuz1nvA\n6fGIwDmsOtDpmW+Y3jKLJ74azJvVsqDQxECM6v8eWmazL7ZgeF6w+Ml68AbZSUIR\n5cBSDiwdMLoFIFqVfX6rVVhTJqvuCYbRAlb5TOX1au5DqQBa/BJgRK2m63xVWWoj\na/0R2uTUIQKBgHhKlFhXh+MUWk/sFX55PTxp035cU4Hq7x/9U2Xwz+V/0gHwRwsP\n/WC+WzsTCpVmj2wTDhaYWAEkB5WZtqtnbpdU8PvyfdiiuTjBujQaN5QHaj302l9Y\nwDp/y7vzQf7j7ez45OrN8F1oQnIglbKXc9Hr0RbXM3yYPOd91OCuapH9AoGAZUnQ\nuCxaf4I5S/vvtPq4SutmlbDrxJW0FpU5anBDd8wICRpHhD20d/Rj4AG5zVaTja42\nytwQ7uxx1Pko2V2RvLNFxzowUvxqBl3dHK+8sGZUD9R3JI2u4amf435qKUVHY5qS\n/zOhC2Inq243gPa1kLYMVkJGdvumzjdxQ5D+mAECgYEAlCG3nHpBODUL5+S0J3qE\n/7rffjZgE8IHGuYQrRF1oMwFnMgVhgZ1xwI95Cre30Thk/YWnHTwbMAA83kia60C\nDY+xW8F7qFvBHdY7J0q4fUGlWavO9ecB8exuGALvfB8Vq/Z1CQjT+GwNFu2N7mky\ngn3mflrqFkPHszqFVnPH1uQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "knative-build@knative-project-4.iam.gserviceaccount.com",
+  "client_id": "111133122324683303184",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/knative-build%40knative-project-4.iam.gserviceaccount.com"
+}

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Environment
-. ./0-environment.sh
+. ./00-environment.sh
 
 # add the location of minishift executable to PATH
 # I also keep other handy tools like kubectl and kubetail.sh

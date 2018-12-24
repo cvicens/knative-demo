@@ -1,5 +1,5 @@
 #!/bin/bash
-. ./0-environment.sh
+. ./00-environment.sh
 
 # Configure necessary privileges to the service accounts used by knative
 curl -s https://raw.githubusercontent.com/knative/docs/master/install/scripts/knative-openshift-policies.sh | bash

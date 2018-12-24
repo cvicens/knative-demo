@@ -1,2 +1,5 @@
+.DS_Store
 old/
 node_modules/
+tmp/
+*-lock.*
