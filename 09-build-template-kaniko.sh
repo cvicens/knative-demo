@@ -3,12 +3,15 @@
 . ./install/gke/00-environment.sh
 
 BUILD_NAME="docker-build-template-hello"
+BUILD_TEMPLATE_NAME="docker-build-template"
+
+kubectl delete buildtemplate ${BUILD_TEMPLATE_NAME} --namespace ${PROJECT_NAME}
 
 cat << EOF | kubectl apply --namespace ${PROJECT_NAME} -f -
 apiVersion: build.knative.dev/v1alpha1
 kind: BuildTemplate
 metadata:
-  name: docker-build-template
+  name: ${BUILD_TEMPLATE_NAME}
 spec:
   parameters:
   - name: IMAGE
@@ -23,8 +26,8 @@ spec:
   - name: build-and-push
     image: gcr.io/kaniko-project/executor:v0.1.0
     args:
-    - --dockerfile=${DIRECTORY}/{DOCKERFILE_NAME}
-    - --destination=${IMAGE}
+    - --dockerfile=\${DIRECTORY}/\${DOCKERFILE_NAME}
+    - --destination=\${IMAGE}
 EOF
 
 # Delete 1st just in case we want to retry
